@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background: url(./images/wallpaperflare.com_wallpaper.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    width: 35%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    padding: 1.5em 4em;
+    border-radius: 5px;
+}
+
+.user a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.detail-feild {
+    position: relative;
+    margin: 1.4em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+
+}
+
+.detail-feild input {
+    outline: 0;
+    padding: .8em 4em .8em 1em;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #FFF;
+    font-size: 1rem;
+}
+.detail-feild input::placeholder{
+    color: #fff;
+}
+
+.detail-feild img {
+    padding: 0 10px;
+    position: absolute;
+    left: 230px;
+}
+
+.password-support {
+    margin: 1em 0;
+    font-size: 14px;
+}
+
+.password-support p {
+    margin-left: 5px;
+}
+
+.btn {
+    padding: 1em 3em;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    cursor: pointer;
+    transition: transform .6s ease;
+
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+.no-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.no-account a {
+    font-weight: 900;
+    margin-left: 5px;
+}
